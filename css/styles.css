@@ -16,13 +16,19 @@ body {
 }
 
 .logo {
-    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
     text-transform: uppercase;
+    font-family: var(--secondary-font);
 }
 
 .link {
     text-decoration: none;
     color: var(--primary-black-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .link:hover,
@@ -48,6 +54,11 @@ body {
     letter-spacing: 0.4px;
 }
 
+.future-cart-text {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
 .title-section {
     background-color: var(--primary-black-color);
 }
@@ -56,6 +67,7 @@ body {
     font-size: 56px;
     font-weight: 700;
     text-align: center;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     color: var(--primary-white-color);
 }
@@ -91,6 +103,7 @@ body {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
+    line-height: 1.11;
 }
 
 .team-section {
@@ -105,27 +118,23 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
-.team-member-text {
+.team-card-text {
     text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
     color: var(--secondary-black-color);
-}
-
-.footer {
-    color: var(--secondary-white-color);
-    background-color: var(--primary-black-color);
-}
-
-.logo-footer {
-    color: var(--secondary-white-color);
 }
 
 .filter-button {
     display: flex;
     padding: 12px 24px;
     justify-content: center;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
     align-items: center;
     border-radius: 4px;
     border: 1px solid #E7E9FC;
@@ -136,5 +145,26 @@ body {
 .portfolio-card-title {
     font-size: 24px;
     font-weight: 500;
+    line-height: 1.2;
     letter-spacing: 0.4px;
+}
+
+.portfolio-card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer {
+    background-color: var(--primary-black-color);
+}
+
+.logo-footer {
+    color: var(--secondary-white-color);
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-white-color);
 }
