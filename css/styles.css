@@ -1,0 +1,140 @@
+:root {
+    --primary-font: "Roboto",  sans-serif;
+    --secondary-font: "Raleway",  sans-serif;
+    --primary-white-color: #ffffff;
+    --primary-black-color: #2E2F42;
+    --secondary-white-color: #F4F4FD;
+    --secondary-black-color: #434455;
+    --seccondary-accent-color: #4D5AE5;
+    --hover-link-color: #404BBF;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    font-family: var(--primary-font);
+    color: var(--primary-black-color);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--primary-black-color);
+}
+
+.link:hover,
+.link:active {
+    color: var(--hover-link-color);
+}
+
+.navigation {
+    font-weight: 500;
+}
+
+.logo span {
+    color: var(--seccondary-accent-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.future-cart-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.title-section {
+    background-color: var(--primary-black-color);
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 1.12px;
+    color: var(--primary-white-color);
+}
+
+.title-button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    color: var(--primary-white-color);
+    background-color: var(--seccondary-accent-color);
+}
+
+.button:hover {
+    background-color: var(--hover-link-color);
+    color: var(--primary-white-color);
+}
+
+.button {
+    cursor: pointer;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.secondary-title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.team-section {
+    background-color: var(--secondary-white-color);
+}
+
+.team-card {
+    background-color: var(--primary-white-color);
+}
+
+.team-card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
+
+.team-member-text {
+    text-align: center;
+    color: var(--secondary-black-color);
+}
+
+.footer {
+    color: var(--secondary-white-color);
+    background-color: var(--primary-black-color);
+}
+
+.logo-footer {
+    color: var(--secondary-white-color);
+}
+
+.filter-button {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    background: var(--secondary-white-color);
+    color: var(--seccondary-accent-color)
+}
+
+.portfolio-card-title {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+}
