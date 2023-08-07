@@ -2,10 +2,10 @@
     --primary-font: "Roboto",  sans-serif;
     --secondary-font: "Raleway",  sans-serif;
     --primary-white-color: #ffffff;
-    --primary-black-color: #2E2F42;
+    --primary-black-color: #434455;
     --secondary-white-color: #F4F4FD;
-    --secondary-black-color: #434455;
-    --seccondary-accent-color: #4D5AE5;
+    --secondary-black-color: #2E2F42;
+    --primary-accent-color: #4D5AE5;
     --hover-link-color: #404BBF;
 }
 
@@ -16,23 +16,38 @@ body {
 }
 
 .logo {
+    text-decoration: none;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     font-family: var(--secondary-font);
+    color: var(--primary-accent-color);
+}
+
+.logo-span {
+    color: var(--secondary-black-color);
+}
+
+.footer-logo-span {
+    color: var(--secondary-black-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--hover-link-color);
 }
 
 .link {
     text-decoration: none;
-    color: var(--primary-black-color);
+    color: var(--secondary-black-color);
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
 .link:hover,
-.link:active {
+.link:focus {
     color: var(--hover-link-color);
 }
 
@@ -40,8 +55,9 @@ body {
     font-weight: 500;
 }
 
-.logo span {
-    color: var(--seccondary-accent-color);
+.address-item {
+    font-style: normal;
+    color: var(--primary-black-color);
 }
 
 .list {
@@ -52,11 +68,14 @@ body {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 0.4px;
+    line-height: 1.2;
+    color: var(--secondary-black-color)
 }
 
 .future-cart-text {
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: var(--primary-black-color)
 }
 
 .title-section {
@@ -73,18 +92,17 @@ body {
 }
 
 .title-button {
-    display: inline-flex;
-    padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--primary-white-color);
-    background-color: var(--seccondary-accent-color);
+    background-color: var(--primary-accent-color);
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--hover-link-color);
     color: var(--primary-white-color);
 }
@@ -130,23 +148,22 @@ body {
 }
 
 .filter-button {
-    display: flex;
-    padding: 12px 24px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
     justify-content: center;
     line-height: 1.5;
-    letter-spacing: 0.64px;
-    align-items: center;
-    border-radius: 4px;
-    border: 1px solid #E7E9FC;
+    letter-spacing: 0.04em;
     background: var(--secondary-white-color);
-    color: var(--seccondary-accent-color)
+    color: var(--primary-accent-color)
 }
 
 .portfolio-card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--secondary-black-color)
 }
 
 .portfolio-card-text {
@@ -159,7 +176,7 @@ body {
     background-color: var(--primary-black-color);
 }
 
-.logo-footer {
+.footer-logo-span {
     color: var(--secondary-white-color);
 }
 
