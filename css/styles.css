@@ -15,8 +15,19 @@ body {
     color: var(--primary-black-color);
 }
 
-.logo {
+.link {
     text-decoration: none;
+    color: var(--secondary-black-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--hover-link-color);
+}
+
+.logo {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
@@ -34,29 +45,15 @@ body {
     color: var(--secondary-black-color);
 }
 
-.logo:hover,
-.logo:focus {
-    color: var(--hover-link-color);
-}
-
-.link {
-    text-decoration: none;
-    color: var(--secondary-black-color);
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
-.link:hover,
-.link:focus {
-    color: var(--hover-link-color);
-}
-
 .navigation {
     font-weight: 500;
 }
 
-.address-item {
+.address-list {
     font-style: normal;
+}
+
+.address-item {
     color: var(--primary-black-color);
 }
 
@@ -79,7 +76,7 @@ body {
 }
 
 .title-section {
-    background-color: var(--primary-black-color);
+    background-color: var(--secondary-black-color);
 }
 
 .title {
@@ -122,6 +119,7 @@ body {
     text-transform: capitalize;
     text-align: center;
     line-height: 1.11;
+    color: var(--secondary-black-color);
 }
 
 .team-section {
@@ -138,13 +136,13 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: var(--secondary-black-color);
 }
 
 .team-card-text {
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: var(--secondary-black-color);
 }
 
 .filter-button {
@@ -173,7 +171,7 @@ body {
 }
 
 .footer {
-    background-color: var(--primary-black-color);
+    background-color: var(--secondary-black-color);
 }
 
 .footer-logo-span {
