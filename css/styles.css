@@ -168,6 +168,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: var(--primary-black-color);
 }
 
 .footer {
